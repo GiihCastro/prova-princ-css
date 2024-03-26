@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding-top: 41px;
+    padding-right: 70px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(137, 216, 153, 0.38) 100%);
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto auto 120px;
+
+}
+
+#cbf {
+width: 100px;
+} 
+
+#titulo{
+    display: flex;
+
+}
+li{
+    display: inline-block;
+    margin:20px;
+    font-size: 16px;
+    font-weight:bold
+    
+
+}
+
+a{
+    color:#979797;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #000000;
+    transition: 0,3 all;
+}
+
+h1 {
+    color: darkgreen;
+    margin-left: 10px;
+}
+
+img{
+    width: 20px;
+}
+
+.team-section {
+    background-color: white;
+    margin: 10px auto 10px 10px;
+    padding-left: 10px;
+    border: 2px solid darkgreen
+    
+}
